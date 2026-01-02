@@ -1,0 +1,15 @@
+[package]
+name = "welly-main"
+version = "1.0.0"
+authors = ["Alistair Turnbull <welly@minworks.co.uk>"]
+rust-version = "1.85" # The version in Debian Bookworm.
+description = "A top level for the Welly programming language"
+homepage = "https://wellylang.org"
+repository = "https://github.com/apt1002/welly-main"
+license = "BSD-2-Clause"
+keywords = ["welly", "main", "repl", "error"]
+categories = ["command-line-interface", "compilers", "development-tools"]
+edition = "2024"
+
+[dependencies]
+ansi_term = "=0.12.1"
